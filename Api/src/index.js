@@ -15,7 +15,7 @@ const sequelize = new Sequelize('students', 'studentAdmin', '125&1333-', {
 //se establece configuracion de cors
 app.use(
   cors({
-    origin: "https://special-space-fishstick-j4gx4pw4pwvh5jx-31459.app.github.dev"
+    origin: "http://localhost:31459"
   })
 );
 
